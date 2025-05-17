@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.vedansh.whatsapp.R
 import androidx.compose.foundation.lazy.items
+import com.vedansh.whatsapp.presentation.bottomnavigation.BottomNavigation
 
 
 @Composable
@@ -55,6 +56,9 @@ fun HomeScreen(){
                     modifier  = Modifier.size(28.dp))
 
             }
+        },
+        bottomBar = {
+            BottomNavigation()
         }
 
     ){
